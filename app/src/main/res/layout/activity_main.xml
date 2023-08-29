@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#939393"
+    tools:ignore="MissingClass">
+
+
+    <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="홈"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        tools:layout_editor_absoluteX="26dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        app:menu="@menu/bottom_nav_meau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/alarm_button"
+        android:layout_width="22dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="16dp"
+        android:text="alarm"
+        android:backgroundTint="#8C7E7E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/time_button2"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="128dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="68dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="@color/white"
+        android:text="시간표"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/meal_button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="216dp"
+        android:layout_height="142dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="@color/white"
+        android:text="급식표"
+        app:layout_constraintBottom_toTopOf="@+id/Rating_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.882"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Rating_button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="365dp"
+        android:layout_height="182dp"
+        android:layout_marginTop="228dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="@color/white"
+        android:text="수행평가 기간"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/rating_button1"
+        android:layout_width="317dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="316dp"
+        android:background="#9E9999"
+        android:backgroundTint="#E1D8D8"
+        android:text="수행평가1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/rating_button2"
+        android:layout_width="317dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="360dp"
+        android:background="#979393"
+        android:backgroundTint="#E1D8D8"
+        android:text="수행평가2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/correspondence_button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="365dp"
+        android:layout_height="182dp"
+        android:layout_marginTop="44dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="@color/white"
+        android:text="간편 가정통신문"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Rating_button" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/agreement_button1"
+        android:layout_width="317dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="536dp"
+        android:background="#979393"
+        android:backgroundTint="#E1D8D8"
+        android:text="학부모 동의서 작성1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/parentAgreement_button2"
+        android:layout_width="317dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="584dp"
+        android:background="#9E9999"
+        android:backgroundTint="#E1D8D8"
+        android:text="학부모 동의서 작성2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/retire_button"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="236dp"
+        android:text="조퇴증 받기"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Rating_button" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/announce_button"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="236dp"
+        android:text="공지사항"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Rating_button" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/evaluation_button"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="236dp"
+        android:text="수행평가"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Rating_button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "847467773158",
+    "project_id": "vacationproject-de3f7",
+    "storage_bucket": "vacationproject-de3f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847467773158:android:e5253cd151603ea5b10f27",
+        "android_client_info": {
+          "package_name": "com.example.vacation_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847467773158-muka1qg5j4j1f30prolu957qna5sp6h7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiRTraNYykV2_S125U02UVhyP3DWI3U1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847467773158-muka1qg5j4j1f30prolu957qna5sp6h7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
